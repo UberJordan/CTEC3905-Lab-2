@@ -1,0 +1,47 @@
+body {
+  margin: 0em;
+}
+
+header {
+  font-family: "Arial";
+  background-color: lightblue;
+}
+
+h1 {
+  margin: 0em;
+}
+
+nav {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 15%;
+  padding: 1em;
+  float: right;
+  float: left;
+}
+
+a {
+  margin: 0em;
+  color: white;
+  transition: all 0.5s;
+}
+
+a:hover {
+  background-color: orange;
+  color: yellow;
+}
+
+main {
+  width: 65%;
+  padding: left-right;
+  float: left;
+  float: right;
+  box-sizing: padding-box;
+}
+
+p {
+  margin: 0em;
+}
